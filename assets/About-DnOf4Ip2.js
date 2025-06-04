@@ -1,1 +1,0 @@
-import{j as e}from"./index-vw81a1JU.js";function s(){return e.jsxs("div",{className:"p-4 bg-white rounded",children:[e.jsx("h2",{children:"About"}),e.jsx("p",{children:"This project hosts India-only map tiles using open-source tools: Vite, React, TileServer GL, Docker, and more."})]})}export{s as default};
