@@ -47,8 +47,8 @@ html, body, #root {
 
 /* Navbar logo */
 .navbar-logo {
-  width: 90px;
-  max-height: 50px;
+  width: 150px;
+  max-height: 60px;
   object-fit: contain;
   transform: scale(1.2);
 }
@@ -97,10 +97,11 @@ html, body, #root {
 }
 
 /* Add padding/margin only for About and Contact */
+.app-wrapper.home .page,
 .app-wrapper.about .page,
 .app-wrapper.contact .page {
   padding: 2rem 1rem;
-  margin-top: 2rem;
+  margin-top: 3.75rem;
   margin-bottom: 1rem;
 }
 

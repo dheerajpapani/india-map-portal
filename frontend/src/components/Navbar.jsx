@@ -8,10 +8,10 @@ const NavigationBar = () => {
 
   return (
     <Navbar bg="light" expand="lg" className="fixed-top shadow-sm">
-      <Container fluid className="px-3 px-lg-5">
+      <Container fluid className="px-4 px-lg-8">
         <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">
-          <img src={logo} alt="Logo" className="navbar-logo me-3" />
-          <span style={{ fontWeight: 500, fontSize: "1.25rem", marginLeft: 20 }}>
+          <img src={logo} alt="Logo" className="navbar-logo me-1" />
+          <span style={{ fontWeight: 500, fontSize: "1.50rem", marginLeft: 20 }}>
             India Map Portal
           </span>
         </Navbar.Brand>
