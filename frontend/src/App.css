@@ -1,0 +1,114 @@
+/* Reset and base layout */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Flex wrapper for all pages */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrapper {
+  flex: 1;
+  padding-top: 100px;
+  padding-bottom: 3.5rem;
+}
+
+/* Footer styles */
+.app-footer {
+  background-color: #222;
+  color: #eee;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+  height: 3.5rem;
+  line-height: 3rem;
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+  transition: opacity 0.4s ease, transform 0.4s ease, position 0.3s ease;
+}
+
+.footer-fixed {
+  position: fixed !important;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.2);
+  background-color: #222;
+  opacity: 1;
+}
+
+/* Navbar logo */
+.navbar-logo {
+  width: 90px;
+  max-height: 50px;
+  object-fit: contain;
+  transform: scale(1.2);
+}
+
+/* Map-specific layout */
+.map-container-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.map-page {
+  flex-grow: 1;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+/* Smooth page fade-in */
+.page {
+  animation: fadeIn 0.4s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-top: 1px solid #ccc;
+  }
+  .nav-link {
+    padding: 0.5rem 0;
+  }
+}
+
+/* Add padding/margin only for About and Contact */
+.app-wrapper.about .page,
+.app-wrapper.contact .page {
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.react-autosuggest__input {
+  box-shadow: none !important;
+  border: 1px solid #ccc !important;
+  border-radius: 12px !important;
+  outline: none !important;
+}
+
+

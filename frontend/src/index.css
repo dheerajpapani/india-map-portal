@@ -1,0 +1,25 @@
+/* Reset margins and set scroll behavior */
+body, html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* Global font and spacing below sticky navbar */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 70px; /* Match your fixed navbar height */
+}
+
+section {
+  padding: 60px 0;
+}
+
+/* Optional improvements */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 1140px;
+}
