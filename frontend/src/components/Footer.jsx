@@ -1,9 +1,9 @@
 import React from "react";
 
-const Footer = ({ fixed }) => {
+const Footer = ({ sticky }) => {
   return (
-    <footer className={`app-footer ${fixed ? "footer-fixed" : ""}`}>
-      <p>© 2025 Your Company. All rights reserved.</p>
+    <footer className={`app-footer ${sticky ? "footer-sticky" : ""}`}>
+      <p>© 2025 IITTNIF. All rights reserved.</p>
     </footer>
   );
 };
