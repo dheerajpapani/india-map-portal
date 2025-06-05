@@ -1,0 +1,1 @@
+import{j as i}from"./index-B52FLPhx.js";function e(){return i.jsxs("div",{className:"p-4 bg-light rounded",children:[i.jsx("h2",{children:"Contact"}),i.jsxs("ul",{children:[i.jsx("li",{children:"Email: dheerajpapani@gmail.com"}),i.jsxs("li",{children:["GitHub: ",i.jsx("a",{href:"https://github.com/dheerajpapani",children:"dheerajpapani"})]})]})]})}export{e as default};
