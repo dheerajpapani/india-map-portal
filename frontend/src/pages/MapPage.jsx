@@ -53,7 +53,7 @@ export default function MapPage() {
           <div
             style={{
               position: 'absolute',
-              top: '80px',
+              top: '90px',
               left: '10px',
               zIndex: 10,
               background: 'rgba(255, 255, 255, 0.95)',
@@ -78,7 +78,7 @@ export default function MapPage() {
         <div
           style={{
             position: 'absolute',
-            top: '80px',
+            top: '90px',
             right: '10px',
             zIndex: 10,
             background: 'rgba(255, 255, 255, 0.85)',
