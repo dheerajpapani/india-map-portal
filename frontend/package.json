@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://dheerajpapani.github.io/india-map-portal2",
+  "homepage": "https://dheerajpapani.github.io/india-map-portal",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
